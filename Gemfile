@@ -10,7 +10,14 @@ gem 'haml'
 gem 'koala'
 gem 'mongoid'
 
+group :development, :test do
+  gem 'pry'
+  gem 'pry-remote'
+end
+
 group :test do
   gem 'rspec-rails'
   gem 'database_cleaner'
+  gem 'vcr'
+  gem 'webmock'
 end

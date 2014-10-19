@@ -1,0 +1,75 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://graph.facebook.com/188091757763?access_token=CAADFZAIL8xY8BAFCO6y3nvMdTdWxeiAdZCNndZCSTmkfWiLoYZA8yS7Sx7KjdA9biMq3OPrWsHZAR92AZAEgUT5O6NbbhUQIQ49FdnwQpvSXTSdTZBWuSmJl4LG8RWQ43ZCIr0Mm2te4y2aPkmR9iWFqDVjZCzgddQVyYdF6OHPjUWaZCx5X9W5ZAZCYu4Hm6cCxBOSpH4QiXzSLRh9CQrSHZCkRp
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Facebook-Api-Version:
+      - v1.0
+      Etag:
+      - '"faee4eea32c112ccf2f2c640ee141d96d06bb5d1"'
+      Content-Type:
+      - application/json; charset=UTF-8
+      Pragma:
+      - no-cache
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fb-Rev:
+      - '1460080'
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      X-Fb-Debug:
+      - czr83ZhUoCEtaLV4dHSzp4h6pYTqHXhk+LPBx2rd8NgSyfYeU3PeE9I22iAGJkUyJZnWDAH8AbBjgAu/9Sb2zA==
+      Date:
+      - Sun, 19 Oct 2014 19:59:44 GMT
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1523'
+    body:
+      encoding: UTF-8
+      string: '{"id":"188091757763","about":"Connecting 71.251.932 people on Facebook
+        and Twitter. We are a Preferred Marketing Developer. Contact us: info\u0040tigerlilyapps.com","awards":"Best
+        Web App at the Facebook Mobile Hack - London 2012\nSilver Award LeWeb09\nWinner
+        Mini SeedCamp 2010\nFinalist SeedCamp 2010","can_post":true,"category":"Internet\/software","category_list":[{"id":"358483060859947","name":"Startup"},{"id":"152142351517013","name":"Corporate
+        Office"}],"checkins":254,"cover":{"cover_id":"10152119553822764","offset_x":0,"offset_y":0,"source":"https:\/\/fbcdn-sphotos-b-a.akamaihd.net\/hphotos-ak-xpa1\/v\/t1.0-9\/s720x720\/1503977_10152119553822764_108979917_n.png?oh=4469dc0205438185c699279357046ec7&oe=54F04E74&__gda__=1421630924_2880fdf2d2e15e1b39cb8fa0f7179e59"},"description":"Social
+        Media Management Made easy.\n\nWe help you optimize and streamline your business
+        actions with our amazingly simple Social Media Management Software.\n\nWorking
+        with more than 80 iconic brands, the company has run campaigns across 60 countries
+        and serving 72 million people.\n","founded":"2009","has_added_app":false,"is_community_page":false,"is_published":true,"likes":10939,"link":"https:\/\/www.facebook.com\/Tigerlilyapps","location":{"city":"Paris","country":"France","latitude":48.851546070062,"longitude":2.3764281178548,"street":"94
+        avenue Ledru Rollin","zip":"75011"},"mission":"The Tigerlily software helps
+        iconic brands grow their business through social media. \n\nOptimize your
+        conversations, engage users trough rich contents or contests and analyze your
+        performances.\n\n","name":"Tigerlily","parking":{"lot":0,"street":0,"valet":0},"phone":"+
+        33 1 82 28 38 61","products":"The Social Marketing Platform\nA powerful dashboard
+        to manage all your social media campaigns according to your needs.\n\nConversations\nOptimize
+        monitoring and posting across Facebook & Twitter.\nAutomate monitoring to
+        filter and dispatch user contents efficiently. Optimize topics, post types
+        and timing of your posts based on relevant KPIs and identify precisely how
+        active and influential your users are.\n\nApplications\nCreate unique social
+        apps to maximize impressions, acquisitions, conversions and even PR.\nCreate
+        and manage apps that delivers on your goals. Localize and geotarget your campaigns
+        and access users profiles, detailed insights including Google analytics.\n\nInsights\nAccess
+        actionable metrics that helps you boost your performance dramatically.\nAccess
+        some simple and accurate reports based on your criteria and private data.
+        Enhance your social mix (organic, paid and earned) and compare all your Pages
+        and their KPIs.","talking_about_count":50,"username":"Tigerlilyapps","website":"http:\/\/www.tigerlilyapps.com","were_here_count":254}'
+    http_version: 
+  recorded_at: Sun, 19 Oct 2014 19:59:43 GMT
+recorded_with: VCR 2.9.3
