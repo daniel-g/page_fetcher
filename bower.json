@@ -1,0 +1,22 @@
+{
+  "name": "PageFetcher",
+  "version": "0.0.1",
+  "homepage": "https://github.com/daniel-g/",
+  "authors": [
+    "Daniel Gaytan <dgaytan6@dgaytan6.com>"
+  ],
+  "description": "Facebook page fetcher Demo",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "latest",
+    "angular": "latest"
+  }
+}
