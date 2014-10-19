@@ -7,3 +7,10 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',        group: :doc
 gem 'spring',      group: :development
 gem 'haml'
+gem 'koala'
+gem 'mongoid'
+
+group :test do
+  gem 'rspec-rails'
+  gem 'database_cleaner'
+end
