@@ -16,4 +16,3 @@ shared_examples_for 'template controller' do
     end
   end
 end
-
