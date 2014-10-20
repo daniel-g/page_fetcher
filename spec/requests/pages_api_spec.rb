@@ -8,8 +8,8 @@ describe 'Pages API' do
       get api_pages_path(format: :json)
       expect(response).to be_success
       expect(api_response.length).to eq 2
-      expect(api_response.first.uid).to eq 188091757763
-      expect(api_response.last.uid).to eq 188091757764
+      expect(api_response.first['uid']).to eq '188091757763'
+      expect(api_response.last['uid']).to eq '188091757764'
     end
   end
 
