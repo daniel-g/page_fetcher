@@ -10,6 +10,10 @@ angular.module('PageFetcherApp', ['ngRoute'])
         controller: 'PageController'
       })
   ])
+  .filter('fromNow', ->
+    (input)->
+      moment(input).fromNow()
+  )
   .controller('WelcomeController', ['$scope', '$http', ($scope, $http)->
     $http.get('/api/pages.json')
       .success( (data, status, headers, config)->

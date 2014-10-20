@@ -20,4 +20,4 @@
             %p(ng-bind='post.description')
         .row
           .large-12.columns
-            5 minutes ago
+            %p(ng-bind='post.created_time | fromNow')

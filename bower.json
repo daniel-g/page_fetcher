@@ -18,6 +18,7 @@
   "dependencies": {
     "foundation": "latest",
     "angular": "latest",
-    "angular-route": "latest"
+    "angular-route": "latest",
+    "momentjs": "latest"
   }
 }
