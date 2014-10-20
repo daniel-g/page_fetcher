@@ -9,4 +9,5 @@ RSpec.configure do |config|
   config.infer_spec_type_from_file_location!
 
   config.include ApiHelper, type: :request
+  config.include ApiHelper, type: :controller
 end

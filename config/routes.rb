@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   root 'welcome#index'
 
   namespace :api do
-    resources :pages, only: [:create, :show]
+    resources :pages, only: [:create, :show, :index]
   end
 
   namespace :tpl do

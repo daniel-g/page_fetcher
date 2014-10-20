@@ -1,6 +1,9 @@
 class Api::PagesController < Api::ApplicationController
   attr_accessor :page, :feed
-  helper_method :page, :feed
+  helper_method :page, :feed, :pages
+
+  def index
+  end
 
   def create
     self.page = Page.create!(uid: fb_page['id'], username: fb_page['username'])
@@ -13,6 +16,10 @@ class Api::PagesController < Api::ApplicationController
   end
 
   private
+
+  def pages
+    @pages ||= Page.all
+  end
 
   def fb_page_feed
     @fb_page_feed ||= fb_api.get_connection(page.uid, 'feed')

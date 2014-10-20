@@ -69,3 +69,25 @@ describe Api::PagesController, 'GET#show' do
     expect(response).to render_template('api/errors/not_found')
   end
 end
+
+describe Api::PagesController, 'GET#index' do
+  render_views
+
+  let(:pages) do
+    [
+      Page.new( { uid: '12345', username: 'Test' }),
+      Page.new( { uid: '12346', username: 'Test2' })
+    ]
+  end
+
+  it 'retrieves the list of created pages' do
+    expect(Page).to receive(:all).and_return(pages)
+    get :index, format: :json
+    expect(response).to be_success
+    expect(response).to render_template 'api/pages/index'
+    expect(api_response).to eql [
+      { id: pages.first.id.to_s, uid: '12345', username: 'Test' },
+      { id: pages.last.id.to_s, uid: '12346', username: 'Test2' }
+    ].as_json
+  end
+end
