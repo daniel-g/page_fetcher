@@ -3,10 +3,10 @@
     %h1 Page Fetcher
 .row
   .large-12.columns.text-center
-    %form
+    %form(ng-submit='create()')
       .row
         .large-6.large-offset-3.columns
-          %input(type='text' name='pageId' placeholder='example: 12345677')
+          %input(type='text' name='pageId' ng-model='page.id' placeholder='example: 12345677')
       .row
         .large-12.columns.text-center
           %input.button(type='submit' value='Add')

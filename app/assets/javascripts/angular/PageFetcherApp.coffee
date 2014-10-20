@@ -22,6 +22,20 @@ angular.module('PageFetcherApp', ['ngRoute'])
       .error( (data, status, headers, config)->
         console.log data
       )
+
+    $scope.create = ->
+      $http.post('/api/pages.json', {
+        id: $scope.page.id
+      })
+        .success( (data, status, headers, config)->
+          $scope.pages.push data
+          $scope.page = {}
+        )
+        .error( (data, status, headers, config)->
+          console.log data
+        )
+
+
     @
   ])
   .controller('PageController', ['$scope', '$http', '$routeParams', ($scope, $http, $routeParams)->
