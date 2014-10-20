@@ -9,6 +9,7 @@ gem 'spring',      group: :development
 gem 'haml'
 gem 'koala'
 gem 'mongoid'
+gem 'coffee-rails'
 
 group :development, :test do
   gem 'pry'
