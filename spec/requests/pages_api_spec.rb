@@ -17,4 +17,21 @@ describe 'Pages API' do
     expect(response).to be_not_found
     expect(api_response['message']).to be_present
   end
+
+  it 'retrieves the feed of a page' do
+    page = Page.create!(uid: '188091757763', username: 'Tigerlilyapps')
+    VCR.use_cassette('show page feed') do
+      get api_page_path(id: page.id.to_s, format: :json)
+    end
+    expect(response).to be_success
+    expect(api_response.length).to be > 0
+  end
+
+  it 'resposes with 404 if the page feed was not found' do
+    page = Page.create!(uid: '188091757763', username: 'Tigerlilyapps')
+    VCR.use_cassette('show not found page feed') do
+      get api_page_path(id: 111111, format: :json)
+    end
+    expect(response).to be_not_found
+  end
 end

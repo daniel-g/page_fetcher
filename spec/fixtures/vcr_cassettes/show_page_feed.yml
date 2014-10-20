@@ -1,0 +1,103 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://graph.facebook.com/188091757763/feed?access_token=CAADFZAIL8xY8BAN0osZAX4oNu8YpeLkaudDSo6AfgV80ZC8QpaaoWSiiO6vGflxZBbT9nuMwGTmadlU7lj6o1YJBR0p0UlykFhSXYhFWmXVQAZC1bbYrwIZAc6eZBgDJ7C8H2ZC7n8GrVABYREcdlQNmuJtxX66cWkl5XpxHeqVvcznaeCW106U7HvtDVsbZAwMeCcBThDUk40KS1xJMAzsKT
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Facebook-Api-Version:
+      - v1.0
+      Etag:
+      - '"e29442937211f55decbd5b89107136093f91cd52"'
+      Content-Type:
+      - application/json; charset=UTF-8
+      Pragma:
+      - no-cache
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fb-Rev:
+      - '1460080'
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      X-Fb-Debug:
+      - l7hJkeQkfYVJW3OvturEcVE5zr8XKPXutET8Ceni/IxLSX7Zc9o7lNSYfc5RScaAVNSgYhj389txg2IPGQD9qw==
+      Date:
+      - Mon, 20 Oct 2014 04:23:10 GMT
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '3466'
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"188091757763_10152834630492764","from":{"category":"Internet\/software","category_list":[{"id":"358483060859947","name":"Startup"},{"id":"152142351517013","name":"Corporate
+        Office"}],"name":"Tigerlily","id":"188091757763"},"story":"Tigerlily shared
+        a link.","picture":"https:\/\/fbexternal-a.akamaihd.net\/safe_image.php?d=AQDRibWnCb4O9zDz&w=158&h=158&url=http\u00253A\u00252F\u00252Fblog.tigerlilyapps.com\u00252Fwp-content\u00252Fuploads\u00252F2014\u00252F10\u00252Fpartage-facebook1.png","link":"http:\/\/blog.tigerlilyapps.com\/blog\/2014\/10\/14\/vadconext\/?utm_source=facebook&utm_medium=organic&utm_campaign=vadconext","name":"Salon
+        #vadconext: d\u00e9couvrez l''offre de Tigerlily et On Prend Un Caf\u00e9
+        !","caption":"blog.tigerlilyapps.com","description":"Les 21, 22 et 23 Octobre
+        2014 Tigerlily et l''agence On Prend Un Caf\u00e9 seront pr\u00e9sents lors
+        du salon #vadconext pour vous faire d\u00e9couvrir leur offre commune.","icon":"https:\/\/fbstatic-a.akamaihd.net\/rsrc.php\/v2\/yD\/r\/aS8ecmYRys0.gif","actions":[{"name":"Comment","link":"https:\/\/www.facebook.com\/188091757763\/posts\/10152834630492764"},{"name":"Like","link":"https:\/\/www.facebook.com\/188091757763\/posts\/10152834630492764"}],"privacy":{"value":""},"type":"link","status_type":"shared_story","application":{"name":"Links","id":"2309869772"},"created_time":"2014-10-14T12:09:34+0000","updated_time":"2014-10-14T12:09:34+0000"},{"id":"188091757763_10152796938217764","from":{"category":"Internet\/software","category_list":[{"id":"358483060859947","name":"Startup"},{"id":"152142351517013","name":"Corporate
+        Office"}],"name":"Tigerlily","id":"188091757763"},"message":"Discover How
+        to Take Care of Your Biggest Critics","picture":"https:\/\/fbexternal-a.akamaihd.net\/safe_image.php?d=AQBPakbyL1gVTkB_&w=158&h=158&url=http\u00253A\u00252F\u00252Fblog.tigerlilyapps.com\u00252Fwp-content\u00252Fuploads\u00252F2014\u00252F10\u00252FPartage-facebook.png","link":"https:\/\/blog.tigerlilyapps.com\/en\/blog\/2014\/10\/01\/6-steps-to-turn-contrary-customers-into-brand-champions\/?utm_source=facebook&utm_medium=organic&utm_campaign=extangrycustomer","name":"6
+        Steps to Turn Contrary Customers into Brand Champions","caption":"blog.tigerlilyapps.com","description":"More
+        and more, customers are turning to Facebook and Twitter to register complaints,
+        try these easy steps to turn unhappy customers into your biggest fans.","icon":"https:\/\/fbstatic-a.akamaihd.net\/rsrc.php\/v2\/yD\/r\/aS8ecmYRys0.gif","actions":[{"name":"Comment","link":"https:\/\/www.facebook.com\/188091757763\/posts\/10152796938217764"},{"name":"Like","link":"https:\/\/www.facebook.com\/188091757763\/posts\/10152796938217764"}],"privacy":{"value":""},"type":"link","status_type":"shared_story","created_time":"2014-10-02T09:09:18+0000","updated_time":"2014-10-02T09:09:18+0000","likes":{"data":[{"id":"1640594548","name":"Yves
+        Pollak"}],"paging":{"cursors":{"after":"MTY0MDU5NDU0OA==","before":"MTY0MDU5NDU0OA=="}}}},{"id":"188091757763_10152590438442764","from":{"category":"Internet\/software","category_list":[{"id":"358483060859947","name":"Startup"},{"id":"152142351517013","name":"Corporate
+        Office"}],"name":"Tigerlily","id":"188091757763"},"message":"Tigerlily Recrute
+        !","picture":"https:\/\/fbexternal-a.akamaihd.net\/safe_image.php?d=AQDJY6wm2Twvptay&w=158&h=158&url=https\u00253A\u00252F\u00252Fapp.work4labs.com\u00252Ffiles\u00252F538d48ebc995fed9208b45a0","link":"http:\/\/workfor.us\/3w7nt","name":"(Stage)
+        Content & Community Manager","caption":"Paris","description":"Envie de travailler
+        chez un des leaders du marketing social ? Sp\u00e9cialis\u00e9e dans l\u2019usage
+        des m\u00e9dia sociaux, Tigerlily \u00e9dite une plateforme applicative d\u00e9di\u00e9e
+        aux marques et aux agences leur permettant...","icon":"https:\/\/fbstatic-a.akamaihd.net\/rsrc.php\/v2\/yD\/r\/aS8ecmYRys0.gif","actions":[{"name":"Comment","link":"https:\/\/www.facebook.com\/188091757763\/posts\/10152590438442764"},{"name":"Like","link":"https:\/\/www.facebook.com\/188091757763\/posts\/10152590438442764"}],"privacy":{"value":""},"type":"link","status_type":"shared_story","application":{"name":"Work
+        for Us","namespace":"workforus","id":"404596412628"},"created_time":"2014-07-03T12:49:06+0000","updated_time":"2014-07-03T12:49:06+0000","likes":{"data":[{"id":"1045879974","name":"Andrea
+        Soranidis"},{"id":"837344139","name":"Jeremy Mtz"}],"paging":{"cursors":{"after":"ODM3MzQ0MTM5","before":"MTA0NTg3OTk3NA=="}}}},{"id":"188091757763_10152571057382764","from":{"category":"Internet\/software","category_list":[{"id":"358483060859947","name":"Startup"},{"id":"152142351517013","name":"Corporate
+        Office"}],"name":"Tigerlily","id":"188091757763"},"message":"D\u00e9couvrez
+        la derni\u00e8re r\u00e9alisation des \u00e9quipes de Tigerlily \u00e0 l''occasion
+        de la Coupe du Monde -> http:\/\/goo.gl\/rw199W","picture":"https:\/\/fbexternal-a.akamaihd.net\/safe_image.php?d=AQBFlDHHXSU0LzbH&w=130&h=130&url=http\u00253A\u00252F\u00252Fi.vimeocdn.com\u00252Fvideo\u00252F479792791_1280.jpg","link":"https:\/\/vimeo.com\/98919384","source":"http:\/\/vimeo.com\/moogaloop.swf?clip_id=98919384&autoplay=1","name":"Mondial
+        2014 - Soutenez l''Equipe de France !","description":"A l''occasion de la
+        Coupe du Monde 2014, la F\u00e9d\u00e9ration fran\u00e7aise de Football a
+        d\u00e9cid\u00e9 de proposer \u00e0 ses communaut\u00e9s sociales 2 exp\u00e9riences
+        innovantes ! D\u00e9couvrez\u2026","icon":"https:\/\/fbstatic-a.akamaihd.net\/rsrc.php\/v2\/yj\/r\/v2OnaTyTQZE.gif","actions":[{"name":"Comment","link":"https:\/\/www.facebook.com\/188091757763\/posts\/10152571057382764"},{"name":"Like","link":"https:\/\/www.facebook.com\/188091757763\/posts\/10152571057382764"}],"privacy":{"value":""},"type":"video","status_type":"shared_story","created_time":"2014-06-26T08:00:01+0000","updated_time":"2014-06-26T08:00:01+0000","likes":{"data":[{"id":"641582639","name":"Guillaume
+        Protard"},{"id":"1640594548","name":"Yves Pollak"},{"id":"848029423","name":"Lulu
+        Blop"},{"id":"581238779","name":"Benjamin Gateau"},{"id":"577620212","name":"Charlie
+        Rothwell"}],"paging":{"cursors":{"after":"NTc3NjIwMjEy","before":"NjQxNTgyNjM5"}}}},{"id":"188091757763_10152526796622764","from":{"category":"Internet\/software","category_list":[{"id":"358483060859947","name":"Startup"},{"id":"152142351517013","name":"Corporate
+        Office"}],"name":"Tigerlily","id":"188091757763"},"to":{"data":[{"category":"Internet\/software","category_list":[{"id":"358483060859947","name":"Startup"},{"id":"152142351517013","name":"Corporate
+        Office"}],"name":"Tigerlily","id":"188091757763"}]},"message":"Jeudi prochain
+        d\u00e9gustation de vin ouverte \u00e0 tous dans nos locaux !! Si vous voulez
+        rencontrer l''\u00e9quipe derri\u00e8re Tigerlily inscrivez-vous vite !","message_tags":{"112":[{"id":"188091757763","name":"Tigerlily","type":"page","offset":112,"length":9}]},"story":"Tigerlily
+        shared Startup Assembly''s photo.","picture":"https:\/\/scontent-a.xx.fbcdn.net\/hphotos-xpf1\/v\/t1.0-9\/s130x130\/10367168_709661759100455_1344931755543511387_n.png?oh=3520e2c074bef3182f146363eb380258&oe=54EF1DC8","link":"https:\/\/www.facebook.com\/startupassembly\/photos\/a.526915690708397.1073741831.510118542388112\/709661759100455\/?type=1","name":"Timeline
+        Photos","caption":"Et voil\u00e0 ! Super heureux de vous annoncer que c''est
+        parti pour #startupassembly ! Du 12 au 14 juin, plus de 500 startups \u00e0
+        d\u00e9couvrir partout en France ! Allez y faire de belles rencontres ! www.startupassembly.co\nEt
+        en bonus, voici l''affiche officielle ;) ! YEH !!","properties":[{"name":"By","text":"Startup
+        Assembly","href":"https:\/\/www.facebook.com\/startupassembly?ref=stream"}],"icon":"https:\/\/fbstatic-a.akamaihd.net\/rsrc.php\/v2\/yD\/r\/aS8ecmYRys0.gif","actions":[{"name":"Comment","link":"https:\/\/www.facebook.com\/188091757763\/posts\/10152526796622764"},{"name":"Like","link":"https:\/\/www.facebook.com\/188091757763\/posts\/10152526796622764"}],"privacy":{"value":""},"type":"photo","status_type":"shared_story","object_id":"709661759100455","application":{"name":"Photos","id":"2305272732"},"created_time":"2014-06-06T14:57:02+0000","updated_time":"2014-06-06T14:57:02+0000","likes":{"data":[{"id":"100008394932263","name":"Sophie
+        Turpaud-Amalvy"}],"paging":{"cursors":{"after":"MTAwMDA4Mzk0OTMyMjYz","before":"MTAwMDA4Mzk0OTMyMjYz"}}}},{"id":"188091757763_10152473785967764","from":{"category":"Internet\/software","category_list":[{"id":"358483060859947","name":"Startup"},{"id":"152142351517013","name":"Corporate
+        Office"}],"name":"Tigerlily","id":"188091757763"},"message":"Are you using
+        the right format to maximise your tweeting impact? Find out here:","picture":"https:\/\/fbexternal-a.akamaihd.net\/safe_image.php?d=AQA4SU_Jvue7ZNm1&w=158&h=158&url=https\u00253A\u00252F\u00252Fblog.tigerlilyapps.com\u00252Fwp-content\u00252Fuploads\u00252F2014\u00252F03\u00252Fpartage-FB-eng.png","link":"https:\/\/blog.tigerlilyapps.com\/en\/visuals-twitter-can-help-increase-clicks-18\/?utm_source=facebook&utm_medium=organic&utm_campaign=increase_clicks","name":"How
+        to increase the clicks on your tweets by 18\u0025 - Tigerlily Blog","caption":"blog.tigerlilyapps.com","description":"Tweets
+        with images have on average 18\u0025 more click. the Tigerlily App enables
+        you to publish images on twitter and automatically track the links you use.","icon":"https:\/\/fbstatic-a.akamaihd.net\/rsrc.php\/v2\/yD\/r\/aS8ecmYRys0.gif","actions":[{"name":"Comment","link":"https:\/\/www.facebook.com\/188091757763\/posts\/10152473785967764"},{"name":"Like","link":"https:\/\/www.facebook.com\/188091757763\/posts\/10152473785967764"}],"privacy":{"value":""},"type":"link","status_type":"shared_story","created_time":"2014-05-14T13:18:59+0000","updated_time":"2014-05-14T13:18:59+0000","likes":{"data":[{"id":"100002296554927","name":"Joseph
+        Oese"}],"paging":{"cursors":{"after":"MTAwMDAyMjk2NTU0OTI3","before":"MTAwMDAyMjk2NTU0OTI3"}}}},{"id":"188091757763_10152472573397764","from":{"id":"669619872","name":"Mathieu
+        Fosse"},"to":{"data":[{"category":"Internet\/software","category_list":[{"id":"358483060859947","name":"Startup"},{"id":"152142351517013","name":"Corporate
+        Office"}],"name":"Tigerlily","id":"188091757763"}]},"message":"Tigerlily loue
+        un bureau ferm\u00e9 de 12m\u00b2 pouvant contenir 3 postes dans ses nouveaux
+        locaux - Please Share","message_tags":{"0":[{"id":"188091757763","name":"Tigerlily","type":"page","offset":0,"length":9}]},"picture":"https:\/\/fbexternal-a.akamaihd.net\/safe_image.php?d=AQBnoLEs-IAA-Hnx&w=158&h=158&url=http\u00253A\u00252F\u00252Fwww.bureaupartage.com\u00252Fup\u00252Fi1311.jpg","link":"http:\/\/www.bureaupartage.com\/annonce.php?id=558","name":"Coworking
+        bureaux partag\u00e9s","caption":"www.bureaupartage.com","icon":"https:\/\/fbstatic-a.akamaihd.net\/rsrc.php\/v2\/yD\/r\/aS8ecmYRys0.gif","actions":[{"name":"Comment","link":"https:\/\/www.facebook.com\/188091757763\/posts\/10152472573397764"}],"privacy":{"value":""},"type":"link","created_time":"2014-05-13T22:10:20+0000","updated_time":"2014-05-13T22:10:20+0000","likes":{"data":[{"id":"1506490037","name":"Chris
+        Tophe"},{"id":"571643265","name":"Yann Klis"}],"paging":{"cursors":{"after":"NTcxNjQzMjY1","before":"MTUwNjQ5MDAzNw=="}}}}],"paging":{"previous":"https:\/\/graph.facebook.com\/v1.0\/188091757763\/feed?access_token=CAADFZAIL8xY8BAN0osZAX4oNu8YpeLkaudDSo6AfgV80ZC8QpaaoWSiiO6vGflxZBbT9nuMwGTmadlU7lj6o1YJBR0p0UlykFhSXYhFWmXVQAZC1bbYrwIZAc6eZBgDJ7C8H2ZC7n8GrVABYREcdlQNmuJtxX66cWkl5XpxHeqVvcznaeCW106U7HvtDVsbZAwMeCcBThDUk40KS1xJMAzsKT&limit=25&since=1413288574&__previous=1","next":"https:\/\/graph.facebook.com\/v1.0\/188091757763\/feed?access_token=CAADFZAIL8xY8BAN0osZAX4oNu8YpeLkaudDSo6AfgV80ZC8QpaaoWSiiO6vGflxZBbT9nuMwGTmadlU7lj6o1YJBR0p0UlykFhSXYhFWmXVQAZC1bbYrwIZAc6eZBgDJ7C8H2ZC7n8GrVABYREcdlQNmuJtxX66cWkl5XpxHeqVvcznaeCW106U7HvtDVsbZAwMeCcBThDUk40KS1xJMAzsKT&limit=25&until=1400019019"}}'
+    http_version: 
+  recorded_at: Mon, 20 Oct 2014 04:23:10 GMT
+recorded_with: VCR 2.9.3

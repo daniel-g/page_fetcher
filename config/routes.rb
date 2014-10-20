@@ -3,6 +3,10 @@ Rails.application.routes.draw do
   resources :pages, only: :show
 
   namespace :api do
-    resources :pages, only: :create
+    resources :pages, only: [:create, :show]
+  end
+
+  namespace :tpl do
+    resources :pages, only: [:index, :show]
   end
 end

@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://graph.facebook.com/18809175776a?access_token=CAADFZAIL8xY8BAFCO6y3nvMdTdWxeiAdZCNndZCSTmkfWiLoYZA8yS7Sx7KjdA9biMq3OPrWsHZAR92AZAEgUT5O6NbbhUQIQ49FdnwQpvSXTSdTZBWuSmJl4LG8RWQ43ZCIr0Mm2te4y2aPkmR9iWFqDVjZCzgddQVyYdF6OHPjUWaZCx5X9W5ZAZCYu4Hm6cCxBOSpH4QiXzSLRh9CQrSHZCkRp
+    uri: https://graph.facebook.com/18809175776a?access_token=CAADFZAIL8xY8BAN0osZAX4oNu8YpeLkaudDSo6AfgV80ZC8QpaaoWSiiO6vGflxZBbT9nuMwGTmadlU7lj6o1YJBR0p0UlykFhSXYhFWmXVQAZC1bbYrwIZAc6eZBgDJ7C8H2ZC7n8GrVABYREcdlQNmuJtxX66cWkl5XpxHeqVvcznaeCW106U7HvtDVsbZAwMeCcBThDUk40KS1xJMAzsKT
     body:
       encoding: US-ASCII
       string: ''
@@ -36,9 +36,9 @@ http_interactions:
       Expires:
       - Sat, 01 Jan 2000 00:00:00 GMT
       X-Fb-Debug:
-      - ZtCjWA7lUxr43yu6bMy/QK0GOnHLYtKIaJib5uNBl6V+1rp2oyy/v8C42D6wZdL4UrKHnO5YGB6PE/444LUkSQ==
+      - sQMK4seInj/JYKU4SH1lFpentYb/lb+GQ0etvRgOuhZz1zZER/WOF6NE6WoydSw/pAgf0S02y0lRR2PIrdIg8g==
       Date:
-      - Sun, 19 Oct 2014 19:59:44 GMT
+      - Mon, 20 Oct 2014 04:23:08 GMT
       Connection:
       - keep-alive
       Content-Length:
@@ -48,5 +48,5 @@ http_interactions:
       string: '{"error":{"message":"(#803) Some of the aliases you requested do not
         exist: 18809175776a","type":"OAuthException","code":803}}'
     http_version: 
-  recorded_at: Sun, 19 Oct 2014 19:59:44 GMT
+  recorded_at: Mon, 20 Oct 2014 04:23:08 GMT
 recorded_with: VCR 2.9.3
