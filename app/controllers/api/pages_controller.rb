@@ -12,7 +12,6 @@ class Api::PagesController < Api::ApplicationController
   def show
     self.page = Page.find(params[:id])
     self.feed = fb_page_feed
-    render json: feed
   end
 
   private

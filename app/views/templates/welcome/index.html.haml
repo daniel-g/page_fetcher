@@ -1,0 +1,23 @@
+.row
+  .large-12.columns.text-center
+    %h1 Page Fetcher
+.row
+  .large-12.columns.text-center
+    %form
+      .row
+        .large-6.large-offset-3.columns
+          %input(type='text' name='pageId' placeholder='example: 12345677')
+      .row
+        .large-12.columns.text-center
+          %input.button(type='submit' value='Add')
+.row
+  .large-12.columns
+    .row(ng-repeat='page in pages')
+      .large-6.large-offset-3.columns
+        .row
+          .large-2.columns
+            %a(ng-href='#/pages/{{ page.id }}')
+              %img(ng-src='//graph.facebook.com/{{ page.uid }}/picture')
+          .large-10.columns
+            %a(ng-href='#/pages/{{ page.id }}')
+              %h3(ng-bind='page.username')
