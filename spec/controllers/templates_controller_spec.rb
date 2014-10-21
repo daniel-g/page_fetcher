@@ -1,4 +1,10 @@
-shared_examples_for 'template controller' do
+require 'rails_helper'
+
+describe TemplatesController do
+  let(:actions) do
+    [ 'pages/show', 'welcome/index' ]
+  end
+
   it 'does not render any layout' do
     actions.each do |action_name|
       get :show, id: action_name
