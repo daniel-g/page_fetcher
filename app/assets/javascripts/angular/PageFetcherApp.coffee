@@ -30,6 +30,8 @@ angular.module('PageFetcherApp', ['ngRoute'])
     @
   ])
   .controller('WelcomeController', ['$scope', '$http', ($scope, $http)->
+    $scope.pages = []
+
     $http.get('/api/pages.json')
       .success( (data, status, headers, config)->
         $scope.pages = data

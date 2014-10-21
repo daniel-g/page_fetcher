@@ -12,6 +12,9 @@
           %input.button(type='submit' value='Add')
 .row
   .large-12.columns
+    .row(ng-show='pages.length == 0')
+      .large-6.large-offset-3.columns.help-text
+        There are no pages registered yet. Add one above :)
     .row(ng-repeat='page in pages')
       .large-6.large-offset-3.columns
         .row
