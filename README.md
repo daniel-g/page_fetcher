@@ -13,7 +13,7 @@ And the following development libraries:
 * bundler
 * bower
 
-It uses *MongoDB* for persistance.
+It uses **MongoDB** for persistance.
 
 In order to run the app:
 
