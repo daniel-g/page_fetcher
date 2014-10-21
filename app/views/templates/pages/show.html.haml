@@ -7,6 +7,9 @@
   .large-2.columns
     %a(ng-href='#/') &#65513; Back
   .large-10.columns
+    .row(ng-show='page.feed.length == 0')
+      .large-6.large-offset-3.columns.help-text
+        No posts could be found.
     .row(ng-repeat='post in page.feed')
       .large-6.columns
         .row
