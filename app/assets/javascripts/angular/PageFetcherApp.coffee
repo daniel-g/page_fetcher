@@ -14,6 +14,21 @@ angular.module('PageFetcherApp', ['ngRoute'])
     (input)->
       moment(input).fromNow()
   )
+  .service('Status', ->
+    {
+      initialize: (status) ->
+        @status = status
+      setLoading: (isLoading) ->
+        @status.loading = isLoading
+    }
+  )
+  .controller('LoadingController', ['$scope', 'Status', ($scope, Status)->
+    $scope.status = {
+      loading: false
+    }
+    Status.initialize($scope.status)
+    @
+  ])
   .controller('WelcomeController', ['$scope', '$http', ($scope, $http)->
     $http.get('/api/pages.json')
       .success( (data, status, headers, config)->
@@ -38,13 +53,17 @@ angular.module('PageFetcherApp', ['ngRoute'])
 
     @
   ])
-  .controller('PageController', ['$scope', '$http', '$routeParams', ($scope, $http, $routeParams)->
+  .controller('PageController', ['$scope', '$http', '$routeParams', 'Status', ($scope, $http, $routeParams, Status)->
+    Status.setLoading(true)
     $http.get("/api/pages/#{ $routeParams.id }.json")
       .success( (data, status, headers, config)->
         $scope.page = data
       )
       .error( (data, status, headers, config)->
         console.log data
+      )
+      .finally(->
+        Status.setLoading(false)
       )
     @
   ])
