@@ -4,9 +4,11 @@
   .large-10.columns
     %h1(ng-bind='page.username')
 .row
-  .large-12.columns
+  .large-2.columns
+    %a(ng-href='#/') &#65513; Back
+  .large-10.columns
     .row(ng-repeat='post in page.feed')
-      .large-6.large-offset-2.columns
+      .large-6.columns
         .row
           .large-12.columns
             %h3 Jean Durant
